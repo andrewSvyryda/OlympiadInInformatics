@@ -48,8 +48,6 @@ namespace Task5
             for (int i = 0; i < sides.Length; i++)
             {
                 string[] res = sides[i].Split(" ", StringSplitOptions.RemoveEmptyEntries);
-                Console.WriteLine(res[0]);
-                Console.WriteLine(res[1]);
                 points[i] = new Point { X = int.Parse(res[0]), Y = int.Parse(res[1]) };
             }
 
